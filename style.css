@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100dvh;
+    min-width: 100%;
 }
 
 .container{
@@ -27,7 +28,7 @@ body{
     width: 200px;
     height: 200px;
     background: linear-gradient(45deg, #19dd4a 10%, transparent 10%, transparent 50%, #21f054 50%, #15ff50 60%, transparent 60%, transparent 100%);
-    box-shadow: rgba(8, 235, 129, 0.3) -5px 5px, rgba(8, 235, 129, 0.3) -10px 10px, rgba(18, 243, 138, 0.3) -15px 15px, rgba(8, 235, 129, 0.3) -20px 20px, rgba(8, 235, 129, 0.3) -25px 25px;
+    box-shadow: rgba(8, 235, 129, 0.3) -5px -5px, rgba(8, 235, 129, 0.3) -10px -10px, rgba(18, 243, 138, 0.3) -15px -15px, rgba(8, 235, 129, 0.3) -20px -20px, rgba(8, 235, 129, 0.3) -25px -25px;
     background-size: 40px 40px;
     border-radius: 20px;
 }
@@ -46,4 +47,5 @@ body{
         background-position: 40px;
     }
 }
+
 /*background: repeating-linear-gradient(45deg, #3f87a6, #ebf8e1 15%, #f69d3c 20%);*/
